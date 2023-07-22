@@ -2,16 +2,21 @@
 ## About The Project
 It's based on a project of Mat Buckland : *"Raven"*.  
 
-My goal was to add Fuzzy Logic on agent pretrained by neural network and for agents to adapt in real time.  
+My goal was to add fuzzy logic and new weapons to the behavior of pre-trained agents so that they could adapt in real time.  
 
 Agent aiming and shooting are modified by the deviation of a shot (bullet trajectory) with the following fuzzy variables: distance to target, velocity, and the period during which the target has remained visible.
 
 <p align="center">
-  <img src="assets/1-steering-behavior.png" alt="Steering Behavior" />
+  <img src="assets/1-raven.png" alt="Bots in Raven" />
 </p>
 
 ## Gettin Started
 ### Usage
+Some shortcuts to play at Raven :
+| Shortcuts          | Function      |
+| ------------------ | ------------- |
+| Double Right Click | Possess a bot |
+| Left Click         | Shoot         |
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
