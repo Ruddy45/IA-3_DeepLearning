@@ -2,7 +2,12 @@
 ## About The Project
 It's based on a project of Mat Buckland : *"Raven"*.  
 
-My goal was to discover deep learning in a neural network.  
+My goal was to train bots with neural networks by introducing a fuzzy logic on datasets.  
+My goal was to add Fuzzy Logic on agent trained by neural network and to train them.  
+
+Agent aiming and shooting are modified by the deviation of a shot (bullet trajectory) with the following fuzzy variables: distance to target, velocity, and the period during which the target has remained visible.
+
+I also
 
 <p align="center">
   <img src="assets/1-steering-behavior.png" alt="Steering Behavior" />
@@ -10,14 +15,6 @@ My goal was to discover deep learning in a neural network.
 
 ## Getting Started
 ### Usage
-
-fuzzy logic on shoot based on distance to cible, speed and visibility see time
-
-
-number of sets for fuzzy variables is now 5.
-
-Agent aiming and shooting are modified by introducing fuzzy behavior. The deviation of a shot (bullet trajectory) is a function of the following fuzzy variables: distance to target, velocity, and the period during which the target has remained visible.
-
 
 Introduction of a (human) player into the game who creates a team of agent-raven. When a bot is double-right-clicked, it becomes the team leader, and one or two of the other bots present are added to its team, meaning that they wait for the player to attack a target before being able to attack it. When a team member dies, he leaves his weapons with his team-mates in a known location dedicated to the team.
 
